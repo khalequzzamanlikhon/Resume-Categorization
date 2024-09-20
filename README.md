@@ -1,6 +1,3 @@
-# Resume-Categorization
-BERT (bert-base-uncased) | Fine-Tuning
-
 Layotus :
 - [Introduction](#introduction)
 - [Preprocessing](#preprocessing)
@@ -49,16 +46,18 @@ Once the dataset is prepared I applied BERT-base-uncased model on it. This is a 
  I have trained the model in kaggle using GPU T4X2 for faster training. However, I provided a script.py [script.py](#scriptpy-) file which will help you to get prediction. Because The model architecture, weights, and configurations remain the same regardless of whether the model is trained on a GPU or CPU. Hence, load the trained model on a CPU for inference or further processing without any issues. 
 
  However, you need to have the certain libraries like torch, transformers and so which are mentioned in the requriements.txt. To make inference on your local machine do the follwoing.
+
+   - at first download the model.pt and script.py file
      
-    - install the required dependencies by running the comman follwoing command.
+      - install the required dependencies by running the comman follwoing command.
 
-        - pip install -r requirements.txt
+         - pip install -r requirements.txt
 
-    - run the script file using the following command.
+   - run the script file using the following command.
 
-        - python script.py /path to folder
+         - python script.py /path to folder
 
-           - **Note** /path to folder : the folder path in your local machine which contains resumes in pdf format.
+           - Note: /path to folder : the folder path in your local machine which contains resumes in pdf format.
 
 
 
