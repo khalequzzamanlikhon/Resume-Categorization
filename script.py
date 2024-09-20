@@ -1,18 +1,24 @@
-
 import torch
 import os
+import sys
 import shutil
 import pandas as pd
 from transformers import BertTokenizer
+from PyPDF2 import PdfReader
 
-# Load the saved full model and tokenizer
+
+# set device type first
+
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+# Load  model and tokenizer
 model_path = 'model.pt'  
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
-# Load the entire model (architecture + weights)
-model = torch.load(model_path)
+# load model with machine type
+model = torch.load(model_path, map_location=device)
 
-# Set the model to evaluation mode
+# evaluation mode
 model.eval()
 
 # Function to predict resume category
