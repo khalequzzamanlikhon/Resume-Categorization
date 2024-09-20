@@ -49,7 +49,7 @@ Once the dataset is prepared I applied BERT-base-uncased model on it. This is a 
 
    - at first download the model.pt and script.py file
      
-      - install the required dependencies by running the comman follwoing command.
+   - install the required dependencies by running the comman follwoing command.
 
          - pip install -r requirements.txt
 
@@ -58,13 +58,6 @@ Once the dataset is prepared I applied BERT-base-uncased model on it. This is a 
          - python script.py /path to folder
 
            - Note: /path to folder : the folder path in your local machine which contains resumes in pdf format.
-
-
-
-
-
-
-
 
 
 
