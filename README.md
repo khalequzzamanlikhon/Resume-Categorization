@@ -57,7 +57,7 @@ Once the dataset is prepared I applied BERT-base-uncased model on it. This is a 
 
          - python script.py /path to folder
 
-           - Note: /path to folder : the folder path in your local machine which contains resumes in pdf format.
+     - Note: /path to folder : the folder path in your local machine which contains resumes in pdf format.
 
 
 
