@@ -47,7 +47,7 @@ Once the dataset was prepared I applied a BERT-base-uncased model on it. This is
 
  However, you need to have certain libraries like torch, transformers and so which are mentioned in the requirements.txt. To make inferences on your local machine do the following.
 
-   - at first download the model.pt and script.py file
+   - first download the model.pt and script.py and Requirements.txt file
      
    - install the required dependencies by running the following command.
 
@@ -57,7 +57,8 @@ Once the dataset was prepared I applied a BERT-base-uncased model on it. This is
 
          - python script.py /path to folder
 
-     - Note: /path to folder : the folder path in your local machine which contains resumes in pdf format.
+     - Note: /path to folder : the folder path in your local machine which contains resumes in pdf format. Keep all three downloaded files (model.pt, script.py Requirements.txt, and the folder of resumes)
+       in the same folder folder for convenience.
 
 
 
