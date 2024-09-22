@@ -58,7 +58,7 @@ Once the dataset was prepared I applied a BERT-base-uncased model on it. This is
          - python script.py /path to folder
 
      - Note: /path to folder : the folder path in your local machine which contains resumes in pdf format. Keep all three downloaded files (model.pt, script.py Requirements.txt, and the folder of resumes)
-       in the same folder folder for convenience.
+       in the same folder for convenience.
 
 
 
