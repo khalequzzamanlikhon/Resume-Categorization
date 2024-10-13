@@ -1,4 +1,4 @@
-Layotus :
+Layouts :
 - [Introduction](#introduction)
 - [Preprocessing](#preprocessing)
 - [Model Selection](#model-selection)
